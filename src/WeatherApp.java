@@ -35,7 +35,7 @@ public class WeatherApp {
         String region = json.substring(start, end);
 
         //System.out.println(region);
-        System.out.println("Today's temperature in " + city + " is " + temperature + " C " + "(" + region + ")");
+        System.out.println("Today's temperature in " + city + " is " + temperature + "C " + "(" + region + ")");
 
     }
 }
